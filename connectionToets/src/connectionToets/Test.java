@@ -33,7 +33,19 @@ public class Test {
 		
 		main=JOptionPane.showInputDialog(null,"Select option:"+"\n Insert  1."+"\n Delete  2."+"\n Update  3."+"\n Retrieve  4.");
 		
-		switch (main){
+		switch (main)
+		
+		
+		
+		{
+		case "0":
+			JOptionPane.showMessageDialog(null,"You selected nothing,system closing...");
+			
+			System.exit(0);
+			
+		
+		break;
+		
 		case "1":
 			
 			Insert();
