@@ -33,6 +33,8 @@ public class Test {
 		
 		main=JOptionPane.showInputDialog(null,"Select option:"+"\n Insert  1."+"\n Delete  2."+"\n Update  3."+"\n Retrieve  4.");
 		
+		// Switch statement to control the methods
+		
 		switch (main)
 		
 		

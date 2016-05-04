@@ -1,5 +1,5 @@
 package student;
-import javax.faces.applications.FaceMessage;
+
 public class Student {
 	
 	private int studentId;
